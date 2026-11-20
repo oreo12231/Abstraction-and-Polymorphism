@@ -23,3 +23,9 @@ class USA():
 # Objection Creation 
 obj_ind = India()
 obj_usa = USA()
+
+# Common Interface
+for country in (obj_ind, obj_usa):
+    country.capital()
+    country.language()
+    country.type()
